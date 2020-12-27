@@ -1,0 +1,22 @@
+.menu-badge {
+font-size: 9px;
+margin-left: 4px;
+position: relative;
+top: -10px;
+margin-bottom: 13px;
+color: #ffffff;
+background-color: #4fa9fa;
+padding: 3px 4px;
+border-radius: 3px;
+}
+
+/*Opcional: código para que bote*/
+
+.badge-bounce {
+animation: bouncing .8s cubic-bezier(0.1,0.05,0.05,1) 0s infinite alternate both;
+}
+
+@keyframes bouncing{
+	0%{top:-6px}
+	100%{top:-10px}
+}
